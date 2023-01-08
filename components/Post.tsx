@@ -21,7 +21,7 @@ import { ADD_VOTE } from "../graphql/mutation";
 
 type Props = {
   post: Post
-  style: string
+  style?: string
 }
 
 function Post({post, style} : Props) {

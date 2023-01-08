@@ -32,7 +32,7 @@ function Feed({topic}: Props) {
     <div className="mt-5 space-y-4">
       {posts?.map(post => 
         <div key={post.id}>
-          <Post key={post.id} post={post}/>
+          <Post key={post.id} post={post} style={'hover:border-1 hover:border-gray-600'}/>
         </div>
       )}
     </div>

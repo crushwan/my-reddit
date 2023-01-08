@@ -14,7 +14,7 @@ function Subreddit() {
             <Avatar seed={topic as string} large />
           </div>
           <div className="py-2">
-            <h1 className="text-3xl font-semibold">Welcome to the r/${topic} subreddit</h1>
+            <h1 className="text-3xl font-semibold">Welcome to the r/{topic} subreddit</h1>
             <p className="text-sm text-gray-400">r/{topic}</p>
           </div>
         </div>

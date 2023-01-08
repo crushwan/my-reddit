@@ -95,7 +95,7 @@ function Post({post, style} : Props) {
   return (
       
     <Link href={`/post/${post.id}`}>
-      <div className={`${style} flex cursor-pointer rounded-md border border-gray-300 bg-white shadow-sm hover:border hover:border-gray-600`}>
+      <div className={`${style} flex cursor-pointer rounded-md border border-gray-300 bg-white shadow-sm`}>
         <div className="flex flex-col items-center justify-start space-y-1 rounded-l-md bg-gray-50 text-gray-400 p-4">
           <ArrowUpIcon
             onClick={() => upVote(true)}
